@@ -8,16 +8,16 @@
   },
   {
     "id": "2",
-    "name": "Producto B",
+    "name": "Cocido Cagnoli",
     "price": 200.0,
     "categories": ["Categoría 3"],
-    "image": "https://via.placeholder.com/150"
+    "image": "/products/cocido-cagnoli.webp"
   },
   {
     "id": "3",
-    "name": "Producto C",
+    "name": "Salame Cagnoli",
     "price": 150.0,
     "categories": ["Categoría 1"],
-    "image": "https://via.placeholder.com/150"
+    "image": "/products/salame-cagnoli.jpeg"
   }
 ]

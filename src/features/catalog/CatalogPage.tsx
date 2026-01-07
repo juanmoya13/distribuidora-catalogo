@@ -33,8 +33,8 @@ const CatalogPage: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1>Catálogo de Productos</h1>
+    <div className="bg-gray-100 min-h-screen p-6">
+      <h1 className="text-teal-500 text-2xl font-bold mb-6">Catálogo de Productos</h1>
 
       {/* Search Input */}
       <input
@@ -45,6 +45,7 @@ const CatalogPage: React.FC = () => {
           setSearchTerm(e.target.value);
           setCurrentPage(1); // Reset pagination on search
         }}
+        className="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 mb-6 text-black"
       />
 
       {/* Category Selector */}
@@ -54,6 +55,7 @@ const CatalogPage: React.FC = () => {
           setSelectedCategory(e.target.value);
           setCurrentPage(1); // Reset pagination on category change
         }}
+        className="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 mb-6 text-black"
       >
         <option value="">Todas las categorías</option>
         {categories.map((category) => (
@@ -64,7 +66,7 @@ const CatalogPage: React.FC = () => {
       </select>
 
       {/* Feedback for empty state */}
-      {isEmpty && <p>No se encontraron productos</p>}
+      {isEmpty && <p className="text-gray-500 text-center mt-6">No hay productos disponibles.</p>}
 
       {/* Product Grid */}
       {!isEmpty && (
@@ -77,7 +79,12 @@ const CatalogPage: React.FC = () => {
 
       {/* Load More Button */}
       {!isEmpty && paginatedProducts.length < filteredProducts.length && (
-        <button onClick={handleLoadMore}>Cargar más</button>
+        <button
+          onClick={handleLoadMore}
+          className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition duration-300 ease-in-out mt-6"
+        >
+          Cargar más
+        </button>
       )}
     </div>
   );
