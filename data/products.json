@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "name": "Producto A",
+    "name": "Paleta Cagnoli",
     "price": 100.0,
     "categories": ["Categoría 1", "Categoría 2"],
-    "image": "https://via.placeholder.com/150"
+    "image": "/products/paleta-cagnoli.jpg"
   },
   {
     "id": "2",
