@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { paginateProducts, filterProducts, sortProducts } from "./catalog.logic";
 import { Product } from "./catalog.types";
@@ -11,6 +13,7 @@ const CatalogPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const [isEmpty, setIsEmpty] = useState(false);
 
   // Extract unique categories from productsData
   const categories = Array.from(
@@ -20,6 +23,10 @@ const CatalogPage: React.FC = () => {
   const filteredProducts = filterProducts(productsData, searchTerm, selectedCategory);
   const sortedProducts = sortProducts(filteredProducts);
   const paginatedProducts = paginateProducts(sortedProducts, currentPage, PAGE_SIZE);
+
+  React.useEffect(() => {
+    setIsEmpty(filteredProducts.length === 0);
+  }, [filteredProducts]);
 
   const handleLoadMore = () => {
     setCurrentPage((prevPage) => prevPage + 1);
@@ -56,15 +63,20 @@ const CatalogPage: React.FC = () => {
         ))}
       </select>
 
+      {/* Feedback for empty state */}
+      {isEmpty && <p>No se encontraron productos</p>}
+
       {/* Product Grid */}
-      <ProductGrid>
-        {paginatedProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </ProductGrid>
+      {!isEmpty && (
+        <ProductGrid>
+          {paginatedProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </ProductGrid>
+      )}
 
       {/* Load More Button */}
-      {paginatedProducts.length < filteredProducts.length && (
+      {!isEmpty && paginatedProducts.length < filteredProducts.length && (
         <button onClick={handleLoadMore}>Cargar más</button>
       )}
     </div>
