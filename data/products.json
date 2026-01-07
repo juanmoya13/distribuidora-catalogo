@@ -1,20 +1,20 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Producto A",
     "price": 100.0,
     "categories": ["Categoría 1", "Categoría 2"],
     "image": "https://via.placeholder.com/150"
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Producto B",
     "price": 200.0,
     "categories": ["Categoría 3"],
     "image": "https://via.placeholder.com/150"
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Producto C",
     "price": 150.0,
     "categories": ["Categoría 1"],
