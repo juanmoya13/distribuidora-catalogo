@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { paginateProducts, filterProducts, sortProducts } from "./catalog.logic";
 import { Product } from "./catalog.types";
 import productsData from "../../../data/products.json";
+import ProductCard from "./components/ProductCard";
+import ProductGrid from "./components/ProductGrid";
 
 const PAGE_SIZE = 10;
 
@@ -39,15 +41,11 @@ const CatalogPage: React.FC = () => {
         <option value="categoria2">Categoría 2</option>
       </select>
 
-      <div>
+      <ProductGrid>
         {paginatedProducts.map((product) => (
-          <div key={product.id}>
-            <img src={product.image} alt={product.name} />
-            <h2>{product.name}</h2>
-            <p>{product.price}</p>
-          </div>
+          <ProductCard key={product.id} product={product} />
         ))}
-      </div>
+      </ProductGrid>
 
       {paginatedProducts.length < filteredProducts.length && (
         <button onClick={handleLoadMore}>Cargar más</button>
