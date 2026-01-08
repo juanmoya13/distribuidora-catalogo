@@ -4,14 +4,14 @@
     "name": "ACEITUNA C/CAROZO X 2KG",
     "price": 25000,
     "categories": [],
-    "image": ""
+    "image": "/products/aceituna-2kg.webp"
   },
   {
     "id": "2",
     "name": "ACEITUNA S/C",
     "price": 27000,
     "categories": [],
-    "image": ""
+    "image": "/products/aceituna-2kg.webp"
   },
   {
     "id": "3",
@@ -39,7 +39,7 @@
     "name": "BARRA CREMIGAL",
     "price": 8990,
     "categories": [],
-    "image": ""
+    "image": "/products/barra-cremigal.webp"
   },
   {
     "id": "7",
@@ -53,885 +53,906 @@
     "name": "BARRA LA PAULINA",
     "price": 9300,
     "categories": [],
-    "image": ""
+    "image": "/products/barra-danbo-la-paulina.webp"
   },
   {
     "id": "9",
-    "name": "BARRA ROJA/BLANCA",
-    "price": 8990,
-    "categories": [],
-    "image": ""
-  },
-  {
-    "id": "10",
     "name": "BARRA SANTA MARIA",
     "price": 5000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "11",
+    "id": "10",
     "name": "BASTON 1804",
     "price": 14500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "12",
+    "id": "11",
     "name": "BASTON LA FLOR",
     "price": 14500,
     "categories": [],
-    "image": ""
+    "image": "/products/baston-la-flor.webp"
   },
   {
-    "id": "13",
+    "id": "12",
     "name": "BASTONITOS",
     "price": 3600,
     "categories": [],
-    "image": ""
+    "image": "/products/bastonitos-krachitos-300g.webp"
   },
   {
-    "id": "14",
+    "id": "13",
     "name": "BOCHA CALCHAQUI",
     "price": 11500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "15",
+    "id": "14",
     "name": "BOCHA LOS CALVOS",
     "price": 8900,
     "categories": [],
-    "image": ""
+    "image": "/products/bocha-los-calvos.webp"
   },
   {
-    "id": "16",
+    "id": "15",
     "name": "BONDIOLA LA VICTORIA",
     "price": 14000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "17",
+    "id": "16",
     "name": "BONDIOLA LARIO",
     "price": 18400,
     "categories": [],
     "image": ""
   },
   {
-    "id": "18",
+    "id": "17",
     "name": "CAJON BATATA",
     "price": 12900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "19",
+    "id": "18",
     "name": "CAJON MEMBRILLO",
     "price": 15500,
     "categories": [],
-    "image": ""
+    "image": "/products/dulce-de-membrillo-dulcor.webp"
   },
   {
-    "id": "20",
+    "id": "19",
     "name": "CANTIMPALO",
     "price": 14500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "21",
+    "id": "20",
     "name": "CHEDDAR LIQUIDO",
     "price": 22000,
     "categories": [],
-    "image": ""
+    "image": "/products/cheddar-liquido-tonadita-3kg.webp"
   },
   {
-    "id": "22",
+    "id": "21",
     "name": "COPETIN",
     "price": 1750,
     "categories": [],
     "image": ""
   },
   {
-    "id": "23",
+    "id": "22",
     "name": "CREMA DE LECHE 3,5KG CREMIGAL",
     "price": 29000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "24",
+    "id": "23",
     "name": "CREMA DE LECHE CREMIGAL X 190G",
     "price": 1700,
     "categories": [],
     "image": ""
   },
   {
-    "id": "25",
+    "id": "24",
     "name": "CREMA LECHE MILKAUT 5 LITROS",
     "price": 50000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "26",
+    "id": "25",
     "name": "CREMOSO CREMAC",
     "price": 6990,
     "categories": [],
-    "image": ""
+    "image": "/products/cremoso-cremac.webp"
   },
   {
-    "id": "27",
+    "id": "26",
     "name": "CREMOSO CREMIGAL",
     "price": 5200,
     "categories": [],
     "image": ""
   },
   {
-    "id": "28",
+    "id": "27",
     "name": "CREMOSO DON ATILIO",
     "price": 4990,
     "categories": [],
     "image": ""
   },
   {
-    "id": "29",
+    "id": "28",
     "name": "CREMOSO POR SALUT PAULINA",
     "price": 7400,
     "categories": [],
     "image": ""
   },
   {
-    "id": "30",
+    "id": "29",
     "name": "CREMOSO SANTA MARIA",
     "price": 6800,
     "categories": [],
-    "image": ""
+    "image": "/products/cremoso-santa-maria.webp"
   },
   {
-    "id": "31",
+    "id": "30",
     "name": "DULCE DE LECHE SANTA MARIA X 10 KG",
     "price": 29000,
     "categories": [],
-    "image": ""
+    "image": "/products/dulce-de-leche-repostero-santa-maria-10kg.webp"
   },
   {
-    "id": "32",
-    "name": "DULCE DE LECHE X 10 CREMAC KG",
+    "id": "31",
+    "name": "DULCE DE LECHE CREMAC X 10 KG",
     "price": 30500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "33",
-    "name": "DULCE DE LECHE X 400 CREMAC",
+    "id": "32",
+    "name": "DULCE DE LECHE REPOSTERO CREMAC X 400G",
     "price": 1450,
     "categories": [],
-    "image": ""
+    "image": "/products/dulce-de-leche-repostero-cremac-400g.webp"
   },
   {
-    "id": "34",
+    "id": "33",
     "name": "DULCE DE LECHE X 400 CREMIGAL CLASICO",
     "price": 1390,
     "categories": [],
     "image": ""
   },
   {
-    "id": "35",
+    "id": "34",
     "name": "DULCE REPOSTERO X10KG CREMIGAL",
     "price": 35000,
     "categories": [],
-    "image": ""
+    "image": "/products/dulce-de-leche-repostero-cremigal-10kg.webp"
   },
   {
-    "id": "36",
+    "id": "35",
     "name": "FONTINA LA PAULINA",
     "price": 16600,
     "categories": [],
-    "image": ""
+    "image": "/products/fontina.webp"
   },
   {
-    "id": "37",
+    "id": "36",
     "name": "GOUDA",
     "price": 10600,
     "categories": [],
     "image": ""
   },
   {
-    "id": "38",
+    "id": "37",
     "name": "GOUDA OREGANO",
     "price": 15000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "39",
+    "id": "38",
     "name": "GRASA X 500 HALCON",
     "price": 20500,
     "categories": [],
-    "image": ""
+    "image": "/products/grasa-500g.webp"
   },
   {
-    "id": "40",
+    "id": "39",
     "name": "HAMBURGUESA X 50U",
     "price": 35000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "41",
+    "id": "40",
     "name": "JABON REXONA",
     "price": 650,
     "categories": [],
     "image": ""
   },
   {
-    "id": "42",
+    "id": "41",
     "name": "JAMON COCIDO COCCION LENTA CAGNOLI",
     "price": 17800,
     "categories": [],
     "image": ""
   },
   {
-    "id": "43",
+    "id": "42",
     "name": "JAMON COCIDO LARIO",
     "price": 5900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "44",
+    "id": "43",
     "name": "JAMON COCIDO VAES",
     "price": 13500,
     "categories": [],
-    "image": ""
+    "image": "/products/jamon-cocido-vaes.webp"
   },
   {
-    "id": "45",
+    "id": "44",
     "name": "JAMON CRUDO EL SERRANITO",
     "price": 19900,
     "categories": [],
-    "image": ""
+    "image": "/products/jamon-crudo-serranito.webp"
   },
   {
-    "id": "46",
+    "id": "45",
     "name": "JAMON CRUDO PARMA",
     "price": 32900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "47",
+    "id": "46",
     "name": "JAMON NATURAL LA VICTORIA",
     "price": 8900,
     "categories": [],
-    "image": ""
+    "image": "/products/jamon-cocido-la-victoria.webp"
   },
   {
-    "id": "48",
+    "id": "47",
     "name": "KETCHUP 3L",
     "price": 14500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "49",
+    "id": "48",
     "name": "LATA DE BATATA",
     "price": 16000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "50",
+    "id": "49",
     "name": "LATA DE BATATA CON CHOCOLATE",
     "price": 15500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "51",
+    "id": "50",
     "name": "LATA DURAZNO",
     "price": 1260,
     "categories": [],
     "image": ""
   },
   {
-    "id": "52",
+    "id": "51",
     "name": "LECHE ENTERA MILKAUT",
     "price": 1630,
     "categories": [],
-    "image": ""
+    "image": "/products/leche-entera-milkaut.webp"
   },
   {
-    "id": "53",
+    "id": "52",
     "name": "LECHE LARGA VIDA DESCREMADA",
     "price": 1090,
     "categories": [],
-    "image": ""
+    "image": "/products/leche-descremada-cremigal.webp"
   },
   {
-    "id": "54",
+    "id": "53",
     "name": "LECHE LARGA VIDA ENTERA",
     "price": 1150,
     "categories": [],
-    "image": ""
+    "image": "/products/leche-entera-cremigal.webp"
   },
   {
-    "id": "55",
+    "id": "54",
     "name": "LEVAX",
     "price": 17500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "56",
+    "id": "55",
     "name": "LOMO VAES",
     "price": 16850,
     "categories": [],
-    "image": ""
+    "image": "/products/lomo-ahumado-vaes.webp"
   },
   {
-    "id": "57",
+    "id": "56",
     "name": "LONGANIZA",
     "price": 16900,
     "categories": [],
-    "image": ""
+    "image": "/products/longaniza-la-victoria.webp"
   },
   {
-    "id": "58",
+    "id": "57",
     "name": "MAICITO PEHUAMAR",
     "price": 3700,
     "categories": [],
-    "image": ""
+    "image": "/products/maicito-265g.webp"
   },
   {
-    "id": "59",
+    "id": "58",
     "name": "MANI C/ VAINA",
     "price": 5900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "60",
+    "id": "59",
     "name": "MANI CERVECERO X 1KG",
     "price": 6200,
     "categories": [],
-    "image": ""
+    "image": "/products/mani-cervecero-crisjor-1kg.webp"
   },
   {
-    "id": "61",
+    "id": "60",
     "name": "MANI COMUN",
     "price": 6200,
     "categories": [],
-    "image": ""
+    "image": "/products/mani-salado-crisjor-1kg.webp"
   },
   {
-    "id": "62",
+    "id": "61",
     "name": "MANI SIN PIEL",
     "price": 5900,
     "categories": [],
-    "image": ""
+    "image": "/products/mani-pelado-salado-crisjor-1kg.webp"
   },
   {
-    "id": "63",
+    "id": "62",
     "name": "MANTECA X 100 TONADITA",
     "price": 1200,
     "categories": [],
-    "image": ""
+    "image": "/products/manteca-tonadita-100g.webp"
   },
   {
-    "id": "64",
+    "id": "63",
     "name": "MANTECA X 200 TONADITA",
     "price": 2500,
     "categories": [],
-    "image": ""
+    "image": "/products/manteca-tonadita-200g.webp"
   },
   {
-    "id": "65",
+    "id": "64",
     "name": "MATAMBRE EL TRIUNFO",
     "price": 17500,
     "categories": [],
-    "image": ""
+    "image": "/products/matambre-el-triunfo.webp"
   },
   {
-    "id": "66",
+    "id": "65",
     "name": "MAYONESA 3L",
     "price": 15900,
     "categories": [],
-    "image": ""
+    "image": "/products/mayonesa-3kg.webp"
   },
   {
-    "id": "67",
+    "id": "66",
     "name": "MAYONESA PORCION",
     "price": 15800,
     "categories": [],
     "image": ""
   },
   {
-    "id": "68",
+    "id": "67",
     "name": "MAYONESA X 3 NATURA",
     "price": 15900,
     "categories": [],
-    "image": ""
+    "image": "/products/mayonesa-3kg.webp"
   },
   {
-    "id": "69",
+    "id": "68",
     "name": "MORCILLA LA VICTORIA",
     "price": 4000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "70",
+    "id": "69",
     "name": "MORRON",
     "price": 6200,
     "categories": [],
     "image": ""
   },
   {
-    "id": "71",
+    "id": "70",
     "name": "MOSTACHOL MAROLIO",
     "price": 500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "72",
+    "id": "71",
     "name": "MOSTAZA 3L",
     "price": 15500,
     "categories": [],
-    "image": ""
+    "image": "/products/mostaza-3kg.webp"
   },
   {
-    "id": "73",
+    "id": "72",
     "name": "MUZZARELLA BARRA CREMIGAL",
     "price": 9000,
     "categories": [],
-    "image": ""
+    "image": "/products/mozzarella-cremigal.webp"
   },
   {
-    "id": "74",
+    "id": "73",
     "name": "MUZZARELLA CREMAC",
     "price": 8400,
     "categories": [],
-    "image": ""
+    "image": "/products/mozzarella-cremac.webp"
   },
   {
-    "id": "75",
+    "id": "74",
     "name": "ÑOQUIS MENDIA X 1K",
     "price": 2850,
     "categories": [],
     "image": ""
   },
   {
-    "id": "76",
+    "id": "75",
     "name": "P FINO CAGNOLI",
     "price": 20500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "77",
+    "id": "76",
     "name": "PALETA CAGNOLI",
     "price": 8350,
     "categories": [],
-    "image": ""
+    "image": "/products/paleta-cagnoli.webp"
   },
   {
-    "id": "78",
+    "id": "77",
     "name": "PALETA EXPOSICION E-ROJA",
     "price": 5800,
     "categories": [],
     "image": ""
   },
   {
-    "id": "79",
+    "id": "78",
     "name": "PALETA LARIO",
     "price": 8250,
     "categories": [],
     "image": ""
   },
   {
-    "id": "80",
+    "id": "79",
     "name": "PALETA SCUDETTO",
     "price": 6900,
     "categories": [],
-    "image": ""
+    "image": "/products/paleta-scudetto.webp"
   },
   {
-    "id": "81",
+    "id": "80",
     "name": "PALETA SERRANITO",
     "price": 5900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "82",
+    "id": "81",
     "name": "PALETA TURKEY",
     "price": 6500,
     "categories": [],
-    "image": ""
+    "image": "/products/paleta-turkey.webp"
   },
   {
-    "id": "83",
+    "id": "82",
     "name": "PALITO QUESO X 1 KG",
     "price": 5300,
     "categories": [],
-    "image": ""
+    "image": "/products/palitos-con-queso-1kg.webp"
   },
   {
-    "id": "84",
+    "id": "83",
     "name": "PALITO SALADO X 1KG",
     "price": 5800,
     "categories": [],
-    "image": ""
+    "image": "/products/palitos-salados-1kg.webp"
   },
   {
-    "id": "85",
+    "id": "84",
     "name": "PALITOS QUENTO",
     "price": 1300,
     "categories": [],
-    "image": ""
+    "image": "/products/palitos-quento.webp"
   },
   {
-    "id": "86",
+    "id": "85",
     "name": "PANCETA AHUMADA",
     "price": 11500,
     "categories": [],
-    "image": ""
+    "image": "/products/panceta-ahumada-scudetto.webp"
   },
   {
-    "id": "87",
+    "id": "86",
     "name": "PAPAS CHEDDAR",
     "price": 4800,
     "categories": [],
-    "image": ""
+    "image": "/products/papas-cheddar-330g.webp"
   },
   {
-    "id": "88",
+    "id": "87",
     "name": "PAPAS PEHUAMAR",
     "price": 6250,
     "categories": [],
-    "image": ""
+    "image": "/products/papas-pehuamar-450g.webp"
   },
   {
-    "id": "89",
+    "id": "88",
     "name": "PAPAS QUENTOS X475",
     "price": 5500,
     "categories": [],
-    "image": ""
+    "image": "/products/papas-quento-475g.webp"
   },
   {
-    "id": "90",
+    "id": "89",
     "name": "PATE",
     "price": 850,
     "categories": [],
     "image": ""
   },
   {
-    "id": "91",
+    "id": "90",
     "name": "PATEGRAS PAULINA 1/2",
     "price": 15650,
     "categories": [],
-    "image": ""
+    "image": "/products/pategras-la-paulina.webp"
   },
   {
-    "id": "92",
+    "id": "91",
     "name": "PICADILLO",
     "price": 830,
     "categories": [],
     "image": ""
   },
   {
-    "id": "93",
+    "id": "92",
     "name": "PIMENTON",
     "price": 6600,
     "categories": [],
     "image": ""
   },
   {
-    "id": "94",
+    "id": "93",
     "name": "POR SALUT SIN SAL",
     "price": 7250,
     "categories": [],
     "image": ""
   },
   {
-    "id": "95",
+    "id": "94",
     "name": "PROVOLETA",
     "price": 24300,
     "categories": [],
     "image": ""
   },
   {
-    "id": "96",
+    "id": "95",
     "name": "PURE TOMATE",
     "price": 600,
     "categories": [],
     "image": ""
   },
   {
-    "id": "97",
+    "id": "96",
     "name": "QUENTO X 90",
     "price": 1650,
     "categories": [],
     "image": ""
   },
   {
-    "id": "98",
+    "id": "97",
     "name": "QUESO AZUL COMUN",
     "price": 14500,
     "categories": [],
-    "image": ""
+    "image": "/products/queso-azul-vanguard.webp"
   },
   {
-    "id": "99",
+    "id": "98",
     "name": "QUESO AZUL COMUN 1/2",
     "price": 15680,
     "categories": [],
     "image": ""
   },
   {
-    "id": "100",
+    "id": "99",
     "name": "QUESO CERDO FETITA",
     "price": 4900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "101",
+    "id": "100",
     "name": "QUESO CHEDDAR EN FETA X 10",
     "price": 1960,
     "categories": [],
     "image": ""
   },
   {
-    "id": "102",
+    "id": "101",
     "name": "QUESO CHEDDAR EN FETA X 160",
     "price": 26500,
     "categories": [],
-    "image": ""
+    "image": "/products/cheddar-en-fetas.webp"
   },
   {
-    "id": "103",
+    "id": "102",
     "name": "QUESO CREMA 4KG CREMIGAL",
     "price": 29000,
     "categories": [],
-    "image": ""
+    "image": "/products/queso-crema-4kg.webp"
   },
   {
-    "id": "104",
+    "id": "103",
     "name": "QUESO CREMA ENTERO LA PAULINA",
     "price": 1930,
     "categories": [],
-    "image": ""
+    "image": "/products/queso-crema-la-paulina-290g.webp"
   },
   {
-    "id": "105",
+    "id": "104",
     "name": "QUESO DE CERDO EL TRIUNFO",
     "price": 8100,
     "categories": [],
-    "image": ""
+    "image": "/products/queso-de-cerdo-el-triunfo.webp"
   },
   {
-    "id": "106",
+    "id": "105",
     "name": "QUESO PATEGRAS LA PAULINA",
     "price": 15300,
     "categories": [],
-    "image": ""
+    "image": "/products/pategras-la-paulina.webp"
   },
   {
-    "id": "107",
+    "id": "106",
     "name": "QUESO REGGIANITO DON ATILIO",
     "price": 16150,
     "categories": [],
-    "image": ""
+    "image": "/products/reggianito-don-atilio.webp"
   },
   {
-    "id": "108",
+    "id": "107",
     "name": "RALLADITO X 40 LA PAULINA",
     "price": 23900,
     "categories": [],
-    "image": ""
+    "image": "/products/ralladito-la-paulina-40g.webp"
   },
   {
-    "id": "109",
+    "id": "108",
     "name": "RALLADO X 150 LA PAULINA",
     "price": 3490,
     "categories": [],
-    "image": ""
+    "image": "/products/ralladito-la-paulina-150g.webp"
+  },
+  {
+    "id": "109",
+    "name": "RAVIOLES 4 QUESOS MENDIA X 1KG",
+    "price": 3150,
+    "categories": [],
+    "image": "/products/ravioles-4quesos-mendia.webp"
   },
   {
     "id": "110",
-    "name": "RAVIOLES MENDIA X 1KG",
+    "name": "RAVIOLES ESPINACA MENDIA X 1KG",
     "price": 3150,
     "categories": [],
-    "image": ""
+    "image": "/products/ravioles-espinaca-mendia.webp"
   },
   {
     "id": "111",
-    "name": "REDES",
-    "price": 850,
+    "name": "RAVIOLES JAMÓN Y QUESO MENDIA X 1KG",
+    "price": 3150,
     "categories": [],
-    "image": ""
+    "image": "/products/ravioles-jyq-mendia.webp"
   },
   {
     "id": "112",
-    "name": "REGGIANITO DON ATILIO 1/2",
-    "price": 14900,
+    "name": "RAVIOLES POLLO Y VERDURA MENDIA X 1KG",
+    "price": 3150,
     "categories": [],
-    "image": ""
+    "image": "/products/ravioles-pollo-verdura-mendia.webp"
   },
   {
     "id": "113",
+    "name": "RAVIOLES RICOTA MENDIA X 1KG",
+    "price": 3150,
+    "categories": [],
+    "image": "/products/ravioles-ricota-mendia.webp"
+  },
+  {
+    "id": "114",
+    "name": "REDES",
+    "price": 850,
+    "categories": [],
+    "image": "/products/redes-quento.webp"
+  },
+  {
+    "id": "115",
+    "name": "REGGIANITO DON ATILIO 1/2",
+    "price": 14900,
+    "categories": [],
+    "image": "/products/reggianito-don-atilio.webp"
+  },
+  {
+    "id": "116",
     "name": "SALAME 66",
     "price": 8900,
     "categories": [],
     "image": ""
   },
   {
-    "id": "114",
+    "id": "117",
     "name": "SALAME CAGNOLI",
     "price": 15600,
     "categories": [],
     "image": ""
   },
   {
-    "id": "115",
+    "id": "118",
     "name": "SALAME VAES",
     "price": 12500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "116",
+    "id": "119",
     "name": "SALAMIN LA VICTORIA",
     "price": 15500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "117",
-    "name": "SALAMIN P FINO LA FLOR",
+    "id": "120",
+    "name": "SALAMIN PICADO FINO LA FLOR",
     "price": 15500,
     "categories": [],
-    "image": ""
+    "image": "/products/salamines-picado-fino-la-flor.webp"
   },
   {
-    "id": "118",
-    "name": "SALAMIN P GRUESO LA FLOR",
+    "id": "121",
+    "name": "SALAMIN PICADO GRUESO LA FLOR",
     "price": 15500,
     "categories": [],
-    "image": ""
+    "image": "/products/salamines-picado-grueso-la-flor.webp"
   },
   {
-    "id": "119",
+    "id": "122",
     "name": "SALCHICHAS",
     "price": 690,
     "categories": [],
     "image": ""
   },
   {
-    "id": "120",
-    "name": "SALCHICHON PRIMAVERA LOS CALVO",
+    "id": "123",
+    "name": "SALCHICHON PRIMAVERA LOS CALVOs",
     "price": 7600,
     "categories": [],
-    "image": ""
+    "image": "/products/salchichon-primavera.webp"
   },
   {
-    "id": "121",
+    "id": "124",
     "name": "SARDO AMANECER",
     "price": 14500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "122",
+    "id": "125",
     "name": "SARDO CREMIGAL",
     "price": 14500,
     "categories": [],
-    "image": ""
+    "image": "/products/sardo-cremigal.webp"
   },
   {
-    "id": "123",
+    "id": "126",
     "name": "SARDO DON ATILIO",
     "price": 14000,
     "categories": [],
     "image": ""
   },
   {
-    "id": "124",
+    "id": "127",
     "name": "SARDO SANTA MARIA",
     "price": 14500,
     "categories": [],
     "image": ""
   },
   {
-    "id": "125",
+    "id": "128",
     "name": "SARDO SOBRERO Y CAGNOLO",
     "price": 14900,
     "categories": [],
-    "image": ""
+    "image": "/products/sardo-sobrero-y-cagnolo.webp"
   },
   {
-    "id": "126",
+    "id": "129",
     "name": "TAPA ROTISERA TAPAMAR",
     "price": 1250,
     "categories": [],
-    "image": ""
+    "image": "/products/rotiseras-tapamar.webp"
   },
   {
-    "id": "127",
+    "id": "130",
     "name": "TAPA VIGILIA TAPAMAR",
     "price": 1750,
     "categories": [],
     "image": ""
   },
   {
-    "id": "128",
+    "id": "131",
     "name": "TAPAS CRIOLLA TAPAMAR",
     "price": 1250,
     "categories": [],
-    "image": ""
+    "image": "/products/criolla-tapamar.webp"
   },
   {
-    "id": "129",
+    "id": "132",
     "name": "TAPAS HORNO TAPAMAR",
     "price": 1250,
     "categories": [],
     "image": ""
   },
   {
-    "id": "130",
+    "id": "133",
     "name": "TAPAS PASCUALINA TAPAMAR",
     "price": 1250,
     "categories": [],
-    "image": ""
+    "image": "/products/pascualina-tapamar.webp"
   },
   {
-    "id": "131",
+    "id": "134",
     "name": "TOMATE TRITURADO",
     "price": 1690,
     "categories": [],
     "image": ""
   },
   {
-    "id": "132",
+    "id": "135",
     "name": "YOGUR CEREAL X150",
     "price": 700,
     "categories": [],
     "image": ""
   },
   {
-    "id": "133",
+    "id": "136",
     "name": "YOGUR POTE X1 120",
     "price": 360,
     "categories": [],
     "image": ""
   },
   {
-    "id": "134",
+    "id": "137",
     "name": "YOGUR X LITRO CREMIGAL",
     "price": 1250,
     "categories": [],

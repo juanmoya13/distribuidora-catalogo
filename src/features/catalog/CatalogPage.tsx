@@ -15,6 +15,7 @@ const CatalogPage: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [isEmpty, setIsEmpty] = useState(false);
   const [displayedProducts, setDisplayedProducts] = useState<Product[]>([]);
+  const [totalFilteredProducts, setTotalFilteredProducts] = useState(0);
 
   // Extract unique categories from productsData
   const categories = Array.from(
@@ -26,8 +27,10 @@ const CatalogPage: React.FC = () => {
     const sortedProducts = sortProducts(filteredProducts);
 
     setIsEmpty(filteredProducts.length === 0);
+    setTotalFilteredProducts(filteredProducts.length);
+    setCurrentPage(1);
     setDisplayedProducts(paginateProducts(sortedProducts, 1, PAGE_SIZE));
-  }, [productsData,searchTerm, selectedCategory]);
+  }, [productsData, searchTerm, selectedCategory]);
 
   const handleLoadMore = () => {
     const filteredProducts = filterProducts(productsData, searchTerm, selectedCategory);
@@ -84,7 +87,7 @@ const CatalogPage: React.FC = () => {
       )}
 
       {/* Load More Button */}
-      {!isEmpty && displayedProducts.length < productsData.length && (
+      {!isEmpty && displayedProducts.length < totalFilteredProducts && (
         <button
           onClick={handleLoadMore}
           className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition duration-300 ease-in-out mt-6"

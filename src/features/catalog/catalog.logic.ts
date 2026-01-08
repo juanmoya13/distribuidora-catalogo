@@ -4,6 +4,7 @@ import { Product } from "./catalog.types";
 
 /**
  * Filters products by search term and category.
+ * Only shows products that have a valid image.
  * @param products - List of all products.
  * @param searchTerm - Search term for filtering by name.
  * @param category - Selected category for filtering.
@@ -15,11 +16,16 @@ export function filterProducts(
   category: string
 ): Product[] {
   return products.filter((product) => {
+    // Exclude products without a valid image
+    const hasValidImage = product.image && product.image.trim() !== "" && product.image !== "/";
+    
+    // Filter by search term and category
     const matchesSearch = product.name
       .toLowerCase()
       .includes(searchTerm.toLowerCase());
     const matchesCategory = category === "" || product.categories.includes(category);
-    return matchesSearch && matchesCategory;
+    
+    return hasValidImage && matchesSearch && matchesCategory;
   });
 }
 
