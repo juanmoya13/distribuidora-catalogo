@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { paginateProducts, filterProducts, sortProducts } from "./catalog.logic";
 import { Product } from "./catalog.types";
 import productsData from "../../../data/products.json";
@@ -14,21 +14,27 @@ const CatalogPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [isEmpty, setIsEmpty] = useState(false);
+  const [displayedProducts, setDisplayedProducts] = useState<Product[]>([]);
 
   // Extract unique categories from productsData
   const categories = Array.from(
     new Set(productsData.flatMap((product) => product.categories))
   );
 
-  const filteredProducts = filterProducts(productsData, searchTerm, selectedCategory);
-  const sortedProducts = sortProducts(filteredProducts);
-  const paginatedProducts = paginateProducts(sortedProducts, currentPage, PAGE_SIZE);
+  useEffect(() => {
+    const filteredProducts = filterProducts(productsData, searchTerm, selectedCategory);
+    const sortedProducts = sortProducts(filteredProducts);
 
-  React.useEffect(() => {
     setIsEmpty(filteredProducts.length === 0);
-  }, [filteredProducts]);
+    setDisplayedProducts(paginateProducts(sortedProducts, 1, PAGE_SIZE));
+  }, [productsData,searchTerm, selectedCategory]);
 
   const handleLoadMore = () => {
+    const filteredProducts = filterProducts(productsData, searchTerm, selectedCategory);
+    const sortedProducts = sortProducts(filteredProducts);
+    const nextPageProducts = paginateProducts(sortedProducts, currentPage + 1, PAGE_SIZE);
+
+    setDisplayedProducts((prevProducts) => [...prevProducts, ...nextPageProducts]);
     setCurrentPage((prevPage) => prevPage + 1);
   };
 
@@ -71,14 +77,14 @@ const CatalogPage: React.FC = () => {
       {/* Product Grid */}
       {!isEmpty && (
         <ProductGrid>
-          {paginatedProducts.map((product) => (
+          {displayedProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </ProductGrid>
       )}
 
       {/* Load More Button */}
-      {!isEmpty && paginatedProducts.length < filteredProducts.length && (
+      {!isEmpty && displayedProducts.length < productsData.length && (
         <button
           onClick={handleLoadMore}
           className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition duration-300 ease-in-out mt-6"

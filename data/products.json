@@ -1,20 +1,83 @@
 [
   {
     "id": "1",
-    "name": "Paleta Cagnoli",
-    "price": 100.0,
-    "categories": ["Categoría 1", "Categoría 2"],
-    "image": "/products/paleta-cagnoli.jpg"
+    "name": "ACEITE CAÑUELAS",
+    "price": 0,
+    "categories": ["otros"],
+    "image": "/products/aceite-cañuelas.webp"
   },
   {
     "id": "2",
+    "name": "ACEITUNA 5KG",
+    "price": 0,
+    "categories": ["aceitunas"],
+    "image": "/products/aceituna-5kg.jpg"
+  },
+  {
+    "id": "3",
+    "name": "ACEITUNA C/CAROZO X 2KG",
+    "price": 11330,
+    "categories": ["aceitunas"],
+    "image": "/products/aceituna-2kg.jpeg"
+  },
+  {
+    "id": "4",
+    "name": "ACEITUNA S/C",
+    "price": 12360,
+    "categories": ["aceitunas"],
+    "image": "/products/aceituna-2kg.jpeg"
+  },
+  {
+    "id": "5",
+    "name": "ARROLLADO DE POLLO",
+    "price": 3862.5,
+    "categories": ["fiambres"],
+    "image": "/products/arrollado-de-pollo.jpg"
+  },
+  {
+    "id": "6",
+    "name": "ARROZ X500G AMANDA",
+    "price": 1040.3,
+    "categories": ["otros"],
+    "image": "/products/arroz-amanda.webp"
+  },
+  {
+    "id": "7",
+    "name": "AZUL BAVARIA",
+    "price": 4614.4,
+    "categories": ["quesos"],
+    "image": "/products/azul-bavaria.webp"
+  },
+  {
+    "id": "8",
+    "name": "BARRA CREMAC",
+    "price": 0,
+    "categories": ["quesos"],
+    "image": "/products/barra-cremac.webp"
+  },
+  {
+    "id": "9",
+    "name": "BARRA CREMIGAL",
+    "price": 0,
+    "categories": ["quesos"],
+    "image": "/products/barra-cremigal.png"
+  },
+  {
+    "id": "10",
+    "name": "Paleta Cagnoli",
+    "price": 100.0,
+    "categories": ["Categoría 1"],
+    "image": "/products/paleta-cagnoli.jpg"
+  },
+  {
+    "id": "11",
     "name": "Cocido Cagnoli",
     "price": 200.0,
     "categories": ["Categoría 3"],
     "image": "/products/cocido-cagnoli.webp"
   },
   {
-    "id": "3",
+    "id": "12",
     "name": "Salame Cagnoli",
     "price": 150.0,
     "categories": ["Categoría 1"],
