@@ -11,104 +11,104 @@
     "name": "ACEITUNA S/C",
     "price": 27000,
     "categories": [],
-    "image": "/products/aceituna-2kg.webp"
+    "image": ""
   },
   {
     "id": "3",
     "name": "ARROLLADO DE POLLO",
     "price": 12000,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "4",
-    "name": "ARROZ X500G AMANDA",
+    "name": "ARROZ AMANDA X500G",
     "price": 650,
     "categories": [],
-    "image": ""
+    "image": "/products/arroz-amanda.webp"
   },
   {
     "id": "5",
     "name": "BARRA CREMAC",
     "price": 9150,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "6",
     "name": "BARRA CREMIGAL",
     "price": 8990,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/barra-cremigal.webp"
   },
   {
     "id": "7",
     "name": "BARRA DON ATILIO",
     "price": 8990,
-    "categories": [],
-    "image": ""
+    "categories": ["Quesos"],
+    "image": "/products/barra-don-atilio.webp"
   },
   {
     "id": "8",
     "name": "BARRA LA PAULINA",
     "price": 9300,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/barra-danbo-la-paulina.webp"
   },
   {
     "id": "9",
     "name": "BARRA SANTA MARIA",
     "price": 5000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "10",
     "name": "BASTON 1804",
     "price": 14500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "11",
     "name": "BASTON LA FLOR",
     "price": 14500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/baston-la-flor.webp"
   },
   {
     "id": "12",
     "name": "BASTONITOS",
     "price": 3600,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/bastonitos-krachitos-300g.webp"
   },
   {
     "id": "13",
     "name": "BOCHA CALCHAQUI",
     "price": 11500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "14",
     "name": "BOCHA LOS CALVOS",
     "price": 8900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/bocha-los-calvos.webp"
   },
   {
     "id": "15",
     "name": "BONDIOLA LA VICTORIA",
     "price": 14000,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "16",
     "name": "BONDIOLA LARIO",
     "price": 18400,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
@@ -116,7 +116,7 @@
     "name": "CAJON BATATA",
     "price": 12900,
     "categories": [],
-    "image": ""
+    "image": "/products/dulce-de-batata-cajon.webp"
   },
   {
     "id": "18",
@@ -129,21 +129,21 @@
     "id": "19",
     "name": "CANTIMPALO",
     "price": 14500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "20",
     "name": "CHEDDAR LIQUIDO",
     "price": 22000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/cheddar-liquido-tonadita-3kg.webp"
   },
   {
     "id": "21",
     "name": "COPETIN",
     "price": 1750,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": ""
   },
   {
@@ -171,35 +171,35 @@
     "id": "25",
     "name": "CREMOSO CREMAC",
     "price": 6990,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/cremoso-cremac.webp"
   },
   {
     "id": "26",
     "name": "CREMOSO CREMIGAL",
     "price": 5200,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "27",
     "name": "CREMOSO DON ATILIO",
     "price": 4990,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "28",
     "name": "CREMOSO POR SALUT PAULINA",
     "price": 7400,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "29",
     "name": "CREMOSO SANTA MARIA",
     "price": 6800,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/cremoso-santa-maria.webp"
   },
   {
@@ -241,21 +241,21 @@
     "id": "35",
     "name": "FONTINA LA PAULINA",
     "price": 16600,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/fontina.webp"
   },
   {
     "id": "36",
     "name": "GOUDA",
     "price": 10600,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "37",
     "name": "GOUDA OREGANO",
     "price": 15000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
@@ -283,42 +283,42 @@
     "id": "41",
     "name": "JAMON COCIDO COCCION LENTA CAGNOLI",
     "price": 17800,
-    "categories": [],
-    "image": ""
+    "categories": ["Fiambres"],
+    "image": "/products/jamon-cocido-cagnoli.webp"
   },
   {
     "id": "42",
     "name": "JAMON COCIDO LARIO",
     "price": 5900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "43",
     "name": "JAMON COCIDO VAES",
     "price": 13500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/jamon-cocido-vaes.webp"
   },
   {
     "id": "44",
     "name": "JAMON CRUDO EL SERRANITO",
     "price": 19900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/jamon-crudo-serranito.webp"
   },
   {
     "id": "45",
     "name": "JAMON CRUDO PARMA",
     "price": 32900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "46",
     "name": "JAMON NATURAL LA VICTORIA",
     "price": 8900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/jamon-cocido-la-victoria.webp"
   },
   {
@@ -326,7 +326,7 @@
     "name": "KETCHUP 3L",
     "price": 14500,
     "categories": [],
-    "image": ""
+    "image": "/products/ketchup-3kg.webp"
   },
   {
     "id": "48",
@@ -375,55 +375,55 @@
     "name": "LEVAX",
     "price": 17500,
     "categories": [],
-    "image": ""
+    "image": "/products/levadura-levax.webp"
   },
   {
     "id": "55",
     "name": "LOMO VAES",
     "price": 16850,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/lomo-ahumado-vaes.webp"
   },
   {
     "id": "56",
     "name": "LONGANIZA",
     "price": 16900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/longaniza-la-victoria.webp"
   },
   {
     "id": "57",
     "name": "MAICITO PEHUAMAR",
     "price": 3700,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/maicito-265g.webp"
   },
   {
     "id": "58",
     "name": "MANI C/ VAINA",
     "price": 5900,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": ""
   },
   {
     "id": "59",
     "name": "MANI CERVECERO X 1KG",
     "price": 6200,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/mani-cervecero-crisjor-1kg.webp"
   },
   {
     "id": "60",
     "name": "MANI COMUN",
     "price": 6200,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/mani-salado-crisjor-1kg.webp"
   },
   {
     "id": "61",
     "name": "MANI SIN PIEL",
     "price": 5900,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/mani-pelado-salado-crisjor-1kg.webp"
   },
   {
@@ -444,7 +444,7 @@
     "id": "64",
     "name": "MATAMBRE EL TRIUNFO",
     "price": 17500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/matambre-el-triunfo.webp"
   },
   {
@@ -472,7 +472,7 @@
     "id": "68",
     "name": "MORCILLA LA VICTORIA",
     "price": 4000,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
@@ -500,119 +500,119 @@
     "id": "72",
     "name": "MUZZARELLA BARRA CREMIGAL",
     "price": 9000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/mozzarella-cremigal.webp"
   },
   {
     "id": "73",
     "name": "MUZZARELLA CREMAC",
     "price": 8400,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/mozzarella-cremac.webp"
   },
   {
     "id": "74",
     "name": "ÑOQUIS MENDIA X 1K",
     "price": 2850,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": ""
   },
   {
     "id": "75",
     "name": "P FINO CAGNOLI",
     "price": 20500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "76",
     "name": "PALETA CAGNOLI",
     "price": 8350,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/paleta-cagnoli.webp"
   },
   {
     "id": "77",
     "name": "PALETA EXPOSICION E-ROJA",
     "price": 5800,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "78",
     "name": "PALETA LARIO",
     "price": 8250,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "79",
     "name": "PALETA SCUDETTO",
     "price": 6900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/paleta-scudetto.webp"
   },
   {
     "id": "80",
     "name": "PALETA SERRANITO",
     "price": 5900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "81",
     "name": "PALETA TURKEY",
     "price": 6500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/paleta-turkey.webp"
   },
   {
     "id": "82",
     "name": "PALITO QUESO X 1 KG",
     "price": 5300,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/palitos-con-queso-1kg.webp"
   },
   {
     "id": "83",
     "name": "PALITO SALADO X 1KG",
     "price": 5800,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/palitos-salados-1kg.webp"
   },
   {
     "id": "84",
     "name": "PALITOS QUENTO",
     "price": 1300,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/palitos-quento.webp"
   },
   {
     "id": "85",
     "name": "PANCETA AHUMADA",
     "price": 11500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/panceta-ahumada-scudetto.webp"
   },
   {
     "id": "86",
-    "name": "PAPAS CHEDDAR",
+    "name": "PAPAS CHEDDAR X 330G",
     "price": 4800,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/papas-cheddar-330g.webp"
   },
   {
     "id": "87",
     "name": "PAPAS PEHUAMAR",
     "price": 6250,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/papas-pehuamar-450g.webp"
   },
   {
     "id": "88",
     "name": "PAPAS QUENTOS X475",
     "price": 5500,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/papas-quento-475g.webp"
   },
   {
@@ -626,7 +626,7 @@
     "id": "90",
     "name": "PATEGRAS PAULINA 1/2",
     "price": 15650,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/pategras-la-paulina.webp"
   },
   {
@@ -647,14 +647,14 @@
     "id": "93",
     "name": "POR SALUT SIN SAL",
     "price": 7250,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "94",
     "name": "PROVOLETA",
     "price": 24300,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
@@ -662,188 +662,181 @@
     "name": "PURE TOMATE",
     "price": 600,
     "categories": [],
-    "image": ""
-  },
-  {
-    "id": "96",
-    "name": "QUENTO X 90",
-    "price": 1650,
-    "categories": [],
-    "image": ""
+    "image": "/products/pure-de-tomate.webp"
   },
   {
     "id": "97",
     "name": "QUESO AZUL COMUN",
     "price": 14500,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/queso-azul-vanguard.webp"
   },
   {
     "id": "98",
     "name": "QUESO AZUL COMUN 1/2",
     "price": 15680,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "99",
     "name": "QUESO CERDO FETITA",
     "price": 4900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "100",
     "name": "QUESO CHEDDAR EN FETA X 10",
     "price": 1960,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "101",
     "name": "QUESO CHEDDAR EN FETA X 160",
     "price": 26500,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/cheddar-en-fetas.webp"
   },
   {
     "id": "102",
     "name": "QUESO CREMA 4KG CREMIGAL",
     "price": 29000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/queso-crema-4kg.webp"
   },
   {
     "id": "103",
     "name": "QUESO CREMA ENTERO LA PAULINA",
     "price": 1930,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/queso-crema-la-paulina-290g.webp"
   },
   {
     "id": "104",
     "name": "QUESO DE CERDO EL TRIUNFO",
     "price": 8100,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/queso-de-cerdo-el-triunfo.webp"
   },
   {
     "id": "105",
     "name": "QUESO PATEGRAS LA PAULINA",
     "price": 15300,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/pategras-la-paulina.webp"
   },
   {
     "id": "106",
     "name": "QUESO REGGIANITO DON ATILIO",
     "price": 16150,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/reggianito-don-atilio.webp"
   },
   {
     "id": "107",
     "name": "RALLADITO X 40 LA PAULINA",
     "price": 23900,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/ralladito-la-paulina-40g.webp"
   },
   {
     "id": "108",
     "name": "RALLADO X 150 LA PAULINA",
     "price": 3490,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/ralladito-la-paulina-150g.webp"
   },
   {
     "id": "109",
     "name": "RAVIOLES 4 QUESOS MENDIA X 1KG",
     "price": 3150,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/ravioles-4quesos-mendia.webp"
   },
   {
     "id": "110",
     "name": "RAVIOLES ESPINACA MENDIA X 1KG",
     "price": 3150,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/ravioles-espinaca-mendia.webp"
   },
   {
     "id": "111",
     "name": "RAVIOLES JAMÓN Y QUESO MENDIA X 1KG",
     "price": 3150,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/ravioles-jyq-mendia.webp"
   },
   {
     "id": "112",
     "name": "RAVIOLES POLLO Y VERDURA MENDIA X 1KG",
     "price": 3150,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/ravioles-pollo-verdura-mendia.webp"
   },
   {
     "id": "113",
     "name": "RAVIOLES RICOTA MENDIA X 1KG",
     "price": 3150,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/ravioles-ricota-mendia.webp"
   },
   {
     "id": "114",
     "name": "REDES",
     "price": 850,
-    "categories": [],
+    "categories": ["Snacks"],
     "image": "/products/redes-quento.webp"
   },
   {
     "id": "115",
     "name": "REGGIANITO DON ATILIO 1/2",
     "price": 14900,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/reggianito-don-atilio.webp"
   },
   {
     "id": "116",
     "name": "SALAME 66",
     "price": 8900,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "117",
     "name": "SALAME CAGNOLI",
     "price": 15600,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "118",
     "name": "SALAME VAES",
     "price": 12500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "119",
     "name": "SALAMIN LA VICTORIA",
     "price": 15500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": ""
   },
   {
     "id": "120",
     "name": "SALAMIN PICADO FINO LA FLOR",
     "price": 15500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/salamines-picado-fino-la-flor.webp"
   },
   {
     "id": "121",
     "name": "SALAMIN PICADO GRUESO LA FLOR",
     "price": 15500,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/salamines-picado-grueso-la-flor.webp"
   },
   {
@@ -855,79 +848,79 @@
   },
   {
     "id": "123",
-    "name": "SALCHICHON PRIMAVERA LOS CALVOs",
+    "name": "SALCHICHON PRIMAVERA LOS CALVOS",
     "price": 7600,
-    "categories": [],
+    "categories": ["Fiambres"],
     "image": "/products/salchichon-primavera.webp"
   },
   {
     "id": "124",
     "name": "SARDO AMANECER",
     "price": 14500,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "125",
     "name": "SARDO CREMIGAL",
     "price": 14500,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/sardo-cremigal.webp"
   },
   {
     "id": "126",
     "name": "SARDO DON ATILIO",
     "price": 14000,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "127",
     "name": "SARDO SANTA MARIA",
     "price": 14500,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": ""
   },
   {
     "id": "128",
     "name": "SARDO SOBRERO Y CAGNOLO",
     "price": 14900,
-    "categories": [],
+    "categories": ["Quesos"],
     "image": "/products/sardo-sobrero-y-cagnolo.webp"
   },
   {
     "id": "129",
     "name": "TAPA ROTISERA TAPAMAR",
     "price": 1250,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/rotiseras-tapamar.webp"
   },
   {
     "id": "130",
     "name": "TAPA VIGILIA TAPAMAR",
     "price": 1750,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": ""
   },
   {
     "id": "131",
     "name": "TAPAS CRIOLLA TAPAMAR",
     "price": 1250,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/criolla-tapamar.webp"
   },
   {
     "id": "132",
     "name": "TAPAS HORNO TAPAMAR",
     "price": 1250,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": ""
   },
   {
     "id": "133",
     "name": "TAPAS PASCUALINA TAPAMAR",
     "price": 1250,
-    "categories": [],
+    "categories": ["Pastas y Tapas"],
     "image": "/products/pascualina-tapamar.webp"
   },
   {
@@ -935,7 +928,7 @@
     "name": "TOMATE TRITURADO",
     "price": 1690,
     "categories": [],
-    "image": ""
+    "image": "/products/tomate-triturado.webp"
   },
   {
     "id": "135",
@@ -957,5 +950,89 @@
     "price": 1250,
     "categories": [],
     "image": ""
+  },
+  {
+    "id": "138",
+    "name": "PAPAS SIN SAL QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/papas-sin-sal-quento.webp"
+  },
+  {
+    "id": "139",
+    "name": "PAPAS SALAME QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": ""
+  },
+  {
+    "id": "140",
+    "name": "PAPAS PICANTE QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/papas-picante-quento.webp"
+  },
+  {
+    "id": "141",
+    "name": "PAPAS KETCHUP QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/papas-ketchup-quento.webp"
+  },
+  {
+    "id": "142",
+    "name": "PAPAS BBQ QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/papas-bbq-quento.webp"
+  },
+  {
+    "id": "143",
+    "name": "PALITOS CON QUESO QUENTO",
+    "price": 1300,
+    "categories": ["Snacks"],
+    "image": "/products/palitos-con-queso-quento.webp"
+  },
+  {
+    "id": "144",
+    "name": "MEGA QUESO QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/mega-queso-quento.webp"
+  },
+  {
+    "id": "145",
+    "name": "CONOS QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/conos-quento.webp"
+  },
+  {
+    "id": "146",
+    "name": "BATATAS CEBOLLA QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/batatas-cebolla-quento.webp"
+  },
+  {
+    "id": "147",
+    "name": "BATATAS MOSTAZA QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/batatas-mostaza-quento.webp"
+  },
+  {
+    "id": "148",
+    "name": "BATATAS PAPRIKA QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/batatas-paprika-quento.webp"
+  },
+  {
+    "id": "149",
+    "name": "BATATAS ROQUEFORT QUENTO",
+    "price": 1650,
+    "categories": ["Snacks"],
+    "image": "/products/batatas-roquefort-quento.webp"
   }
 ]
