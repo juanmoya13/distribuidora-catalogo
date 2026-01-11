@@ -126,3 +126,131 @@
 - Las reglas de arquitectura deben estar documentadas y versionadas.
 - Todo código nuevo debe cumplir las reglas existentes.
 - La arquitectura es un contrato vivo, no un documento estático.
+
+# Reglas Generales de Arquitectura – Extensión Feature WhatsApp
+
+Este documento **extiende** las reglas generales de arquitectura existentes.
+No modifica ni elimina reglas previas; agrega **criterios específicos** necesarios para integrar correctamente la *Feature de Acceso Global a WhatsApp*.
+
+---
+
+## 1. Features Transversales
+
+* Las features transversales deben:
+
+  * Montarse en un único punto global (layout raíz).
+  * No depender de páginas concretas.
+  * No conocer el dominio principal.
+
+* No se permite lógica transversal dispersa en múltiples capas.
+
+---
+
+## 2. Aislamiento de Dominio
+
+* La feature WhatsApp:
+
+  * No debe importar tipos, lógica ni constantes del catálogo.
+  * No debe reaccionar a estados del dominio principal.
+
+* Cualquier contextualización futura debe agregarse mediante contratos explícitos.
+
+---
+
+## 3. Lógica Pura y Reutilizable
+
+* La construcción de la URL de WhatsApp debe:
+
+  * Ser una función pura.
+  * Vivir fuera del componente UI.
+  * No acceder a APIs del navegador directamente.
+
+---
+
+## 4. Configuración Centralizada
+
+* Datos como:
+
+  * número de WhatsApp
+  * mensaje por defecto
+
+Deben definirse como constantes configurables y no como literales en la UI.
+
+---
+
+## 5. Dependencia del Entorno
+
+* La feature:
+
+  * No debe asumir plataforma (mobile / desktop).
+  * No debe ramificar lógica según entorno.
+
+* El comportamiento depende exclusivamente del manejador externo (WhatsApp).
+
+---
+
+## 6. Renderizado y Ciclo de Vida
+
+* El componente:
+
+  * Debe ser compatible con SSG.
+  * No debe depender de efectos de montaje para funcionar.
+  * No debe generar renders innecesarios.
+
+---
+
+## 7. Manejo de Errores
+
+* No se implementa manejo de errores visual.
+* Cualquier error técnico debe:
+
+  * Fallar de forma visible en desarrollo.
+  * No romper la navegación del usuario.
+
+---
+
+## 8. Evolución Controlada
+
+* Nuevas capacidades (tracking, multi-número, contexto):
+
+  * Deben implementarse como extensiones.
+  * Nunca como modificaciones del contrato base.
+
+---
+
+## 9. Regla de Bajo Impacto
+
+* Ninguna feature transversal puede:
+
+  * Modificar flujos principales.
+  * Introducir dependencias globales.
+  * Afectar performance del dominio core.
+
+---
+
+## 10. Consistencia con el Proyecto
+
+* La feature debe seguir:
+
+  * Naming conventions existentes.
+  * Organización por features.
+  * Filosofía de simplicidad del MVP.
+
+---
+
+## 11. Regla de No Escalamiento Prematuro
+
+* No se implementan abstracciones para casos no requeridos.
+* El diseño debe ser fácilmente entendible por un desarrollador nuevo.
+
+---
+
+## 12. Cumplimiento Obligatorio
+
+* Toda implementación de la feature WhatsApp debe cumplir:
+
+  * Reglas generales de arquitectura.
+  * Reglas específicas de esta extensión.
+
+El incumplimiento invalida la implementación.
+

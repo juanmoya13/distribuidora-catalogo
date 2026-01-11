@@ -48,3 +48,106 @@
 ## Iconos y Elementos Decorativos
 - Usa `absolute` y `z-10` para posicionar elementos decorativos como imágenes flotantes.
 - Aplica `rotate-6` o `-rotate-6` para darle un estilo dinámico a los elementos.
+
+# Reglas para la UI con Tailwind CSS – Extensión Feature WhatsApp
+
+Este documento **no reemplaza** las reglas existentes de UI.
+Agrega **reglas complementarias específicas** necesarias para implementar correctamente la *Feature de Acceso Global a WhatsApp*, manteniendo consistencia visual, usabilidad y buenas prácticas.
+
+---
+
+## 1. Elementos Flotantes Globales
+
+* Todo elemento flotante global debe:
+
+  * Tener una única responsabilidad visual.
+  * Estar desacoplado del layout del contenido principal.
+  * No desplazar ni solapar información crítica del catálogo.
+
+* Usar posicionamiento:
+
+  * `fixed bottom-4 right-4`
+  * `z-50` o superior para garantizar visibilidad.
+
+---
+
+## 2. Consistencia Visual con el Sistema Existente
+
+* El acceso a WhatsApp debe respetar:
+
+  * Paleta cromática existente.
+  * Escala de sombras y bordes ya definidos.
+
+* No introducir nuevos colores primarios.
+
+* El verde característico de WhatsApp se utiliza **solo en el ícono**, no como color estructural del sistema.
+
+---
+
+## 3. Tamaño, Forma y Jerarquía
+
+* El botón flotante debe:
+
+  * Ser claramente reconocible como acción secundaria.
+  * Mantener proporción circular o semicircular.
+  * Tener un tamaño suficiente para interacción táctil (mobile first).
+
+* No competir visualmente con CTAs principales del catálogo.
+
+---
+
+## 4. Interacciones y Feedback
+
+* Estados permitidos:
+
+  * Default
+  * Hover (desktop)
+
+* Estados no permitidos:
+
+  * Loading
+  * Disabled
+  * Error
+
+* Usar transiciones suaves ya definidas:
+
+  * `transition-transform`
+  * `duration-300`
+
+---
+
+## 5. Accesibilidad Básica
+
+* El botón debe:
+
+  * Ser navegable por teclado.
+  * Incluir `aria-label` descriptivo.
+  * Tener área de click amplia.
+
+---
+
+## 6. Responsividad
+
+* El acceso debe:
+
+  * Mantenerse visible en todas las resoluciones.
+  * No tapar acciones críticas en mobile.
+  * Ajustar spacing en pantallas pequeñas si es necesario.
+
+---
+
+## 7. No Interferencia con el Dominio
+
+* El componente UI de WhatsApp:
+
+  * No debe mostrar información del catálogo.
+  * No debe variar según estado del filtro o búsqueda.
+  * No debe cambiar de posición según la página.
+
+---
+
+## 8. Regla de Simplicidad
+
+* Si una mejora visual no aporta claridad o reconocimiento inmediato del canal, **no se implementa**.
+* El diseño prioriza reconocimiento y rapidez por sobre personalización.
+
