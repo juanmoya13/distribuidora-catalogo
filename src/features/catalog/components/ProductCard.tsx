@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {product.name}
       </h2>
       <p className="text-gray-700 text-base font-light mt-2">
-        ${product.price}
+        {product.price}
       </p>
     </div>
   );
