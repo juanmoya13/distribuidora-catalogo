@@ -16,9 +16,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <h2 className="font-sans text-xl font-bold text-teal-500 mt-4">
         {product.name}
       </h2>
-      <p className="text-gray-700 text-base font-light mt-2">
-        {product.price}
-      </p>
+      {product.price !== null && (
+        <p className="text-gray-700 text-base font-light mt-2">
+          {product.price}
+        </p>
+      )}
     </div>
   );
 };
