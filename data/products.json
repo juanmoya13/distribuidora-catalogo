@@ -183,14 +183,14 @@
     "name": "CREMA DE LECHE 3,5KG CREMIGAL",
     "price": null,
     "categories": [],
-    "image": ""
+    "image": "/products/crema-de-leche-3.5kg.webp"
   },
   {
     "id": "23",
     "name": "CREMA DE LECHE CREMIGAL X 190G",
     "price": null,
     "categories": [],
-    "image": ""
+    "image": "/products/crema-de-leche-190g.webp"
   },
   {
     "id": "24",
@@ -798,7 +798,7 @@
     "categories": [
       "Quesos"
     ],
-    "image": ""
+    "image": "/products/queso-azul-mitad.webp"
   },
   {
     "id": "99",
@@ -1102,7 +1102,7 @@
     "categories": [
       "Pastas y Tapas"
     ],
-    "image": ""
+    "image": "/products/horno-tapamar.webp"
   },
   {
     "id": "133",
@@ -1248,5 +1248,59 @@
       "Snacks"
     ],
     "image": "/products/batatas-roquefort-quento.webp"
+  },
+  {
+    "id": "150",
+    "name": "TAPA ROTISERA CRIOLLA TAPAMAR",
+    "price": null,
+    "categories": [
+      "Pastas y Tapas"
+    ],
+    "image": "/products/rotiseras-ciollas-tapamar.webp"
+  },
+  {
+    "id": "151",
+    "name": "YOGURT BEBIBLE FRUTILLA",
+    "price": null,
+    "categories": [
+      
+    ],
+    "image": "/products/yogurt-bebible-frutilla.webp"
+  },
+  {
+    "id": "152",
+    "name": "YOGURT BEBIBLE VANILLA",
+    "price": null,
+    "categories": [
+      
+    ],
+    "image": ""
+  },
+  {
+    "id": "153",
+    "name": "YOGURT FRUTILLA 120G",
+    "price": null,
+    "categories": [
+      
+    ],
+    "image": "/products/yogurt-frutilla-120g.webp"
+  },
+  {
+    "id": "154",
+    "name": "YOGURT VAINILLA 120G",
+    "price": null,
+    "categories": [
+      
+    ],
+    "image": "/products/yogurt-vainilla-120g.webp"
+  },
+  {
+    "id": "155",
+    "name": "YOGURT FRUTILLA CON CEREALES",
+    "price": null,
+    "categories": [
+      
+    ],
+    "image": "/products/yogurt-frutilla-con-cereales.webp"
   }
 ]
